@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MessageTrackingLogs</id>
+    <version>1.0.0</version>
+    <authors>MessageTrackingLogs</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="Microsoft.Office.Interop.Excel" version="15.0.4795.1000" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.PowerShell.5.1.ReferenceAssemblies" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.PowerShell.SDK" version="6.2.7" exclude="Build,Analyzers" />
+        <dependency id="System.Management.Automation" version="6.2.7" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\richy\source\repos\MessageTrackingLogs\MessageTrackingLogs\bin\Debug\net5.0-windows\MessageTrackingLogs.runtimeconfig.json" target="lib\net5.0-windows7.0\MessageTrackingLogs.runtimeconfig.json" />
+    <file src="C:\Users\richy\source\repos\MessageTrackingLogs\MessageTrackingLogs\bin\Debug\net5.0-windows\MessageTrackingLogs.dll" target="lib\net5.0-windows7.0\MessageTrackingLogs.dll" />
+  </files>
+</package>
